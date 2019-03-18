@@ -1,7 +1,7 @@
 -   id: unittest
     name: unittest
-    entry: python
+    entry: -m unittest discover tests/ -p '*.py'
     language: python
     'types': [python]
-    args: ["-m unittest discover tests/ -p '*.py'"]
+    args: []
     additional_dependencies: []
