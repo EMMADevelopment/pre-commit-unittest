@@ -3,5 +3,6 @@
     entry: python -m unittest discover 
     language: python
     'types': [python]
-    args: ["tests/ -p '*.py'"]
+    args: ["-p '*test.py'"]
     additional_dependencies: []
+    pass_filenames: false
