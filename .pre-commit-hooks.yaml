@@ -1,6 +1,6 @@
 -   id: unittest
     name: unittest
-    entry: -m unittest discover tests/ -p '*.py'
+    entry: python -m unittest discover tests/ -p '*.py'
     language: python
     'types': [python]
     args: []
