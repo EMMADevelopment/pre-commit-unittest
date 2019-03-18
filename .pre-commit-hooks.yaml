@@ -1,7 +1,7 @@
--   id: autopep8
-    name: autopep8
-    entry: autopep8
+-   id: unittest
+    name: unittest
+    entry: python
     language: python
     'types': [python]
-    args: ["-i"]
+    args: ["-m unittest discover tests/ -p '*.py'"]
     additional_dependencies: []
